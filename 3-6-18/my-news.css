@@ -4,18 +4,18 @@ body {
 }
 
 .navigation ul {
-  list-style-type: none;
+text-align: center;
 }
 
 .navigation li {
   font-weight: 100;
   letter-spacing: 2px;
   padding: 20px;
-  float: left;
+  display: inline-block;
 }
 
 #banner {
-  clear: both;
+
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
   background-size: cover;
   background-position: bottom center;
@@ -30,6 +30,8 @@ body {
   top: 50px;
   width: 400px;
   margin: 0 auto;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
 }
 
 .byline {
@@ -38,4 +40,29 @@ body {
   color: DarkGrey;
   font-size: 14px;
   font-weight: 200;
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
 }
