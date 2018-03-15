@@ -1,0 +1,74 @@
+body{
+  font-family:Georgia;
+  background: #FBF9ED;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+.top-menu{
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.top-menu a{
+  background: #F49C6A;
+  border: 1px solid #F49C6A;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.top-menu a:hover{
+  background: white;
+  border: 1px solid #F49C6A;
+  color: #F49C6A;
+}
+
+h1{
+  color: #F49C6A;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 5px solid #F49C6A;
+
+}
+
+h2{
+  font-family: Corier New;
+  text-transform: capitalize;
+}
+
+h3{
+  font-family: Helvetica;
+  font-weight:200;
+}
+
+nav a{
+  color: #B57493;
+  text-decoration: none;
+}
+
+ul{
+  color:#B57493;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+#habitat{
+  color:white;
+  background-image: url("https://s3.amazonaws.com/misy350/bg-tree.jpg");
+}
+
+img{
+  border-radius: 100px;
+}
