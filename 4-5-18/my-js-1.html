@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS HW</title>
+  <script type="text/javascript">
+    var g = 75;
+
+    function grade_calc(g) {
+      if (g >= 90) {
+        return "A";
+      } else if (g >= 80) {
+        return "B";
+      } else if (g >= 70) {
+        return "C";
+      } else if (g >= 60) {
+        return "D";
+      } else {
+        return "F";
+      }
+
+    }
+
+    console.log("you got " + grade_calc(g));
+
+    let gr = 75;
+    switch (gr) {
+      case gr >= 90:
+        console.log("You got A");
+        break;
+      case gr >= 80:
+        console.log("You got B");
+        break;
+      case gr >= 70:
+        console.log("You got C");
+        break;
+      case gr >= 60:
+        console.log("You got D");
+        break;
+      default:
+        console.log("You got F");
+    }
+
+  </script>
+</head>
+
+<body>
+  <h1>Basic Javascript Exercise, See Console for Outputs</h1>
+</body>
+
+</html>
