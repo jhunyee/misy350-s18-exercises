@@ -7,6 +7,16 @@ def index():
     #return "hello World"
     return render_template('index.html')
 
+@app.route('/form-basics')
+def form_basics():
+    #return "hello World"
+    return render_template('form-basics.html')
+
+@app.route('/form-demo')
+def form_basics():
+    first_name = request.args.get('first_name')
+    return first_name
+
 
 @app.route('/users/<string:username>')
 def users(username):
